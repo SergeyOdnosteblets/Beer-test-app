@@ -1,0 +1,11 @@
+.container {
+  .items {
+    cursor: pointer;
+  }
+  .btn {
+    z-index: 100;
+    position: fixed;
+    right: 5px;
+    top: 30%;
+  }
+}

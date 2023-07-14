@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .image {
+    height: 300px;
+  }
+  .info {
+    background: gray;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+    border-radius: 20px;
+  }
+
+  .button__back {
+    background: rgb(107, 89, 89);
+  }
+}
